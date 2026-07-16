@@ -7,7 +7,7 @@ from .backend import (
 )
 
 __all__ = [
-      "ClassifierBackend",
-      "HeuristicBackend",
-      "ClassificationResult",
+    "ClassifierBackend",
+    "HeuristicBackend",
+    "ClassificationResult",
 ]
