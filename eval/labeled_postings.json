@@ -1,0 +1,182 @@
+[
+  {
+    "id": "p01",
+    "notes": "Explicit, unambiguous no-sponsor statement plus a permanent FT role.",
+    "text": "We are hiring a Software Engineer to join our growing product team. This is a full-time, permanent position based in Toronto. Please note: we do not sponsor employment visas or work permits for this role, now or in the future. All applicants must already hold valid Canadian work authorization.",
+    "label": {
+      "sponsorship_likelihood": "unlikely",
+      "eligible_categories": ["pgwp_track"]
+    }
+  },
+  {
+    "id": "p02",
+    "notes": "Government-adjacent role restricted to citizens/PR — classic hard no-sponsor case.",
+    "text": "Due to the nature of this federal contract, applicants must be a Canadian citizen or permanent resident to be considered. Security clearance required. This role is not eligible for any form of sponsorship.",
+    "label": {
+      "sponsorship_likelihood": "unlikely",
+      "eligible_categories": []
+    }
+  },
+  {
+    "id": "p03",
+    "notes": "Direct, explicit statement that sponsorship is offered.",
+    "text": "We're excited to grow our engineering team! Sponsorship is available for the right candidate, and we have a track record of supporting employees through the work permit process. Apply today.",
+    "label": {
+      "sponsorship_likelihood": "likely",
+      "eligible_categories": []
+    }
+  },
+  {
+    "id": "p04",
+    "notes": "Co-op posting with explicit LMIA support language and welcoming to study permit holders.",
+    "text": "Summer Co-op Student, Data Analytics. This is a 4-month co-op placement as part of your academic program. LMIA support is available for eligible candidates, and study permit holders are encouraged to apply.",
+    "label": {
+      "sponsorship_likelihood": "likely",
+      "eligible_categories": ["co_op_exempt_eligible"]
+    }
+  },
+  {
+    "id": "p05",
+    "notes": "On-campus student job, zero sponsorship language either way -- should be unclear on sponsorship but tagged on_campus_only.",
+    "text": "The University Library is hiring a part-time on-campus Circulation Assistant. 12-15 hours per week, flexible scheduling around your class timetable. Must be a currently enrolled student.",
+    "label": {
+      "sponsorship_likelihood": "unclear",
+      "eligible_categories": ["on_campus_only"]
+    }
+  },
+  {
+    "id": "p06",
+    "notes": "Weak/ambiguous authorization phrasing without explicit 'without sponsorship' -- genuinely ambiguous case, could go either way, we label it unclear to test whether the heuristic over-triggers on the weak pattern.",
+    "text": "Candidates should have current work authorization for Canada. We are a small consulting firm looking for a detail-oriented analyst to join our downtown office.",
+    "label": {
+      "sponsorship_likelihood": "unclear",
+      "eligible_categories": []
+    }
+  },
+  {
+    "id": "p07",
+    "notes": "Retail seasonal job, no sponsorship or eligibility signal at all.",
+    "text": "Seasonal Sales Associate needed for the holiday rush. Weekend and evening availability required. Retail experience an asset but not required. Apply in person.",
+    "label": {
+      "sponsorship_likelihood": "unclear",
+      "eligible_categories": []
+    }
+  },
+  {
+    "id": "p08",
+    "notes": "Startup explicitly welcoming international students -- positive signal without being a formal 'sponsorship' statement.",
+    "text": "We're a 20-person startup building fintech tools for small businesses. International students are welcome to apply -- we've sponsored work permits for past hires and are happy to do it again for the right person.",
+    "label": {
+      "sponsorship_likelihood": "likely",
+      "eligible_categories": []
+    }
+  },
+  {
+    "id": "p09",
+    "notes": "Co-op posting with zero sponsorship language -- category should still fire, sponsorship stays unclear.",
+    "text": "Engineering Co-op (Winter Term). Work alongside our embedded systems team on real production hardware. This placement counts toward your program's work-integrated learning requirement.",
+    "label": {
+      "sponsorship_likelihood": "unclear",
+      "eligible_categories": ["co_op_exempt_eligible"]
+    }
+  },
+  {
+    "id": "p10",
+    "notes": "Bank new-grad program, full-time permanent, no sponsorship statement either way.",
+    "text": "Our New Grad Program is a full-time, permanent entry point into our technology division. Rotational placements across three business units over 18 months.",
+    "label": {
+      "sponsorship_likelihood": "unclear",
+      "eligible_categories": ["pgwp_track"]
+    }
+  },
+  {
+    "id": "p11",
+    "notes": "Explicitly accepts open work permit holders / any legal status -- unrestricted tag plus a positive sponsorship-adjacent signal.",
+    "text": "We welcome applicants of any legal work status, including open work permit holders. If you're authorized to work in Canada in any capacity, we'd love to hear from you.",
+    "label": {
+      "sponsorship_likelihood": "likely",
+      "eligible_categories": ["unrestricted"]
+    }
+  },
+  {
+    "id": "p12",
+    "notes": "Weak negative signal only (permanent work authorization required) with no explicit sponsorship statement -- should tip unlikely but with lower confidence than a hard no-sponsor case.",
+    "text": "Applicants must have valid permanent work authorization for this role. We are unable to consider candidates requiring any future work permit renewals or extensions for this position.",
+    "label": {
+      "sponsorship_likelihood": "unlikely",
+      "eligible_categories": []
+    }
+  },
+  {
+    "id": "p13",
+    "notes": "Deliberately contradictory posting (copy-pasted boilerplate error) with both a sponsor and no-sponsor phrase -- true edge case, should land unclear/mixed.",
+    "text": "Sponsorship is available for exceptional candidates. Standard disclaimer: we do not sponsor employment visas for this position. Please disregard whichever line does not apply to your team's current hiring approval.",
+    "label": {
+      "sponsorship_likelihood": "unclear",
+      "eligible_categories": []
+    }
+  },
+  {
+    "id": "p14",
+    "notes": "On-campus research assistant that is also part of a co-op program -- both categories should fire together.",
+    "text": "On-campus Research Assistant Co-op position in the Faculty of Science. This role satisfies your program's practicum requirement and is based entirely on university premises.",
+    "label": {
+      "sponsorship_likelihood": "unclear",
+      "eligible_categories": ["on_campus_only", "co_op_exempt_eligible"]
+    }
+  },
+  {
+    "id": "p15",
+    "notes": "Explicit, unambiguous statement that visa sponsorship is not offered, phrased differently from p01/p02 to test pattern generalization.",
+    "text": "Please note that our company does not currently provide immigration sponsorship for any position, including this one. We encourage candidates who already have work authorization to apply.",
+    "label": {
+      "sponsorship_likelihood": "unlikely",
+      "eligible_categories": []
+    }
+  },
+  {
+    "id": "p16",
+    "notes": "Explicit generic sponsorship-available statement in a career-track full-time role -- likely plus pgwp_track.",
+    "text": "This is a full-time, permanent Business Analyst role. We are open to sponsoring qualified candidates and have supported multiple work permit applications in the past two years.",
+    "label": {
+      "sponsorship_likelihood": "likely",
+      "eligible_categories": ["pgwp_track"]
+    }
+  },
+  {
+    "id": "p17",
+    "notes": "Internship (not formally 'co-op') explicitly requiring citizenship -- unlikely, and co_op pattern should still fire on 'internship' even though sponsorship is unlikely, since eligibility category and sponsorship likelihood are independent axes.",
+    "text": "Marketing Internship -- must be a Canadian citizen or permanent resident due to government funding requirements for this internship program.",
+    "label": {
+      "sponsorship_likelihood": "unlikely",
+      "eligible_categories": ["co_op_exempt_eligible"]
+    }
+  },
+  {
+    "id": "p18",
+    "notes": "Plain job ad with zero signal in either direction and zero category language -- pure baseline unclear case.",
+    "text": "We are looking for a friendly, organized office coordinator to manage day-to-day administrative tasks. Prior experience with scheduling software preferred.",
+    "label": {
+      "sponsorship_likelihood": "unclear",
+      "eligible_categories": []
+    }
+  },
+  {
+    "id": "p19",
+    "notes": "ADVERSARIAL: past-tense negation ('used to sponsor... no longer'). True intent is unlikely, but the v0 patterns only match present-tense 'we sponsor'/'we do not sponsor' phrasing and are not expected to catch this -- included deliberately to give an honest, non-inflated eval number and document a real gap.",
+    "text": "We used to sponsor work permits for international hires, but as of this year we no longer offer that support due to budget constraints.",
+    "label": {
+      "sponsorship_likelihood": "unlikely",
+      "eligible_categories": []
+    }
+  },
+  {
+    "id": "p20",
+    "notes": "ADVERSARIAL: negation phrased as 'not open to candidates who require sponsorship' -- semantically a clear no-sponsor statement but does not match any v0 regex (no 'we do not sponsor' / 'sponsorship not available' style phrasing). Included to honestly surface a coverage gap rather than hide it.",
+    "text": "This role is not open to candidates who require sponsorship of any kind, now or in the future.",
+    "label": {
+      "sponsorship_likelihood": "unlikely",
+      "eligible_categories": []
+    }
+  }
+]
