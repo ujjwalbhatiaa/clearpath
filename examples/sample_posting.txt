@@ -1,0 +1,12 @@
+Junior Software Developer -- Co-op (Fall Term)
+
+We are a mid-size fintech company based in Calgary looking for a Junior Software
+Developer to join our platform team for a 4-month co-op placement. This role counts
+toward your program's work-integrated learning requirement.
+
+Responsibilities include building internal tooling in Python and TypeScript,
+writing tests, and pairing with senior engineers on code review.
+
+Please note: we do not sponsor employment visas or work permits for co-op positions.
+Candidates must already have valid work authorization for the duration of the term
+(e.g. a valid study permit with off-campus work eligibility, or a co-op work permit).
