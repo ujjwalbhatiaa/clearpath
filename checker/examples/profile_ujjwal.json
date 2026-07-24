@@ -1,0 +1,38 @@
+{
+  "name": "Ujjwal Bhatia -- illustrative profile. credential_level=bachelors reflects his real, public program level (BSc Honours Computing Science, University of Alberta). Specific dates below are illustrative example values for demonstrating the checker end-to-end, not a verified copy of his actual IRCC file.",
+  "as_of_date": "2026-07-18",
+  "credential_level": "bachelors",
+  "program_start_date": "2023-09-01",
+  "program_end_date": "2027-04-30",
+  "full_time_each_semester": true,
+  "study_permit_application_date": "2023-06-15",
+  "program_completion_confirmation_date": null,
+  "pgwp_application_date": null,
+  "study_permit_valid_during_window": null,
+  "study_permit_printed_hours": 20,
+  "scheduled_breaks": [
+    { "start_date": "2026-05-01", "end_date": "2026-08-31" }
+  ],
+  "weekly_hours": [
+    {
+      "week_start": "2026-07-06",
+      "off_campus_hours": 30,
+      "on_campus_hours": 0,
+      "label": "week during the summer scheduled break (May 1 - Aug 31)"
+    },
+    {
+      "week_start": "2026-09-14",
+      "off_campus_hours": 22,
+      "on_campus_hours": 10,
+      "label": "week during the fall term"
+    }
+  ],
+  "already_received_pgwp": false,
+  "studied_esl_or_fsl_only": false,
+  "took_general_interest_courses_only": false,
+  "completed_non_credit_program": false,
+  "received_gac_funding_with_return_requirement": false,
+  "over_50pct_distance_learning": false,
+  "studied_at_non_canadian_institution_in_canada": false,
+  "studied_at_non_pgwp_eligible_dli_or_p3_program": false
+}
