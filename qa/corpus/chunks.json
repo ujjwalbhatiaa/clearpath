@@ -1,0 +1,70 @@
+{
+  "snapshot_date": "2026-07-17",
+  "snapshot_note": "All quotes below were captured live from the cited canada.ca / ircc.canada.ca pages on 2026-07-17 by the project-pipeline research task and handed to the builder verbatim in NEXT-BUILD-SPEC.md. This is a static, dated snapshot -- it is NOT re-fetched at query time. If these government pages change after 2026-07-17, this corpus will be stale until a future research run re-captures it. See README.md 'Honest limitations'.",
+  "chunks": [
+    {
+      "id": "hour_cap_24",
+      "tags": ["24-hour cap", "off-campus work", "term time"],
+      "source_title": "Work off campus as an international student",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+      "date_modified": "2026-04-15",
+      "text": "You can work up to 24 hours per week [during regular school terms or semesters]. You can work more than 1 job to make up these hours as long as you continue to meet the conditions of your study permit."
+    },
+    {
+      "id": "scheduled_break_unlimited",
+      "tags": ["scheduled break", "summer", "unlimited hours", "off-campus work"],
+      "source_title": "Work off campus as an international student",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+      "date_modified": "2026-04-15",
+      "text": "If you're working during a break scheduled by your DLI, such as summer and winter holidays, or a reading week, you can work unlimited hours off campus... Working more than 24 hours per week [during term] is a violation of your study permit conditions. You can lose your student status for doing this."
+    },
+    {
+      "id": "annual_180_day_cap",
+      "tags": ["180-day cap", "scheduled break definition", "annual limit"],
+      "source_title": "Can I work as many hours as I want if I'm eligible to work off campus?",
+      "source_url": "https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=503&top=15",
+      "date_modified": "2026-04-17",
+      "text": "A scheduled break must be scheduled by your school, and must last at least 7 consecutive days... A statutory holiday on its own... is not a scheduled break... If your school has back-to-back scheduled breaks, creating a break period longer than 150 consecutive days, you can only work off campus during the first 150 consecutive days... Taking into account all regularly scheduled breaks, you can only work unlimited hours off campus for a total of 180 days during each calendar year."
+    },
+    {
+      "id": "pgwp_general_eligibility",
+      "tags": ["PGWP", "eligibility", "180-day application window"],
+      "source_title": "Post-graduation work permit: Who can apply",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html",
+      "date_modified": "2026-06-24",
+      "text": "You completed a program of study at a PGWP-eligible designated learning institution that was at least 8 months long (or 900 hours for Quebec programs); you maintained full-time status... during each semester...; you apply for your PGWP within 180 days of confirmation that you completed your program of study; your study permit was valid at some point during the 180 days after you completed your program."
+    },
+    {
+      "id": "pgwp_field_of_study_exempt",
+      "tags": ["PGWP", "field of study", "bachelor's exemption", "language requirement"],
+      "source_title": "Post-graduation work permit: Who can apply",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html",
+      "date_modified": "2026-06-24",
+      "text": "There are no field of study requirements for graduates with a bachelor's degree, master's degree or doctoral degree. If you submitted your study permit application on or after November 1, 2024, you must graduate in an eligible field of study [applies only to graduates of any other university program, or a college, polytechnic or non-university program]. Language requirement: CLB/NCLC 7 for university programs, CLB/NCLC 5 for college/polytechnic programs, waived entirely if the PGWP application was submitted before November 1, 2024."
+    },
+    {
+      "id": "pgwp_field_of_study_freeze_2026",
+      "tags": ["PGWP", "field of study list", "2026 freeze", "CIP code"],
+      "source_title": "PGWP field of study requirements / CIP code lookup",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility/field-of-study.html",
+      "date_modified": "2026-03-09",
+      "text": "For 2026, we won't add or remove any eligible fields of study. Eligibility is determined by 6-digit CIP (Classification of Instructional Programs, StatCan 2021) codes linked to certain jobs in long-term shortage in Canada."
+    },
+    {
+      "id": "co_op_exemption_2026",
+      "tags": ["co-op", "internship", "work permit exemption", "April 2026"],
+      "source_title": "Work in a student work placement",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/intern.html",
+      "date_modified": "2026-05-01",
+      "text": "As of April 1, 2026, as a post-secondary international student, you don't need a co-op work permit for student work placements, such as co-ops or internships. There is no weekly hour limit to participate in student work placements. However, your work placement can't total more than 50% of your study program. [Conditions: work-on-campus condition printed on study permit, DLI letter confirming the placement is a program requirement, full-time enrollment. Secondary students still need the permit.]"
+    },
+    {
+      "id": "remote_work_foreign_employer",
+      "tags": ["remote work", "foreign employer", "24-hour cap exclusion"],
+      "source_title": "Work off campus as an international student",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+      "date_modified": "2026-04-15",
+      "text": "You can work remotely for an employer outside Canada as long as you still meet the conditions of your study permit... This type of work doesn't count towards your 24 hours per week off-campus work limit."
+    }
+  ]
+}
