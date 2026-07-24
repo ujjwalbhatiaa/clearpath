@@ -6,6 +6,12 @@ phases) tracks personal IRCC compliance status and drafts compliance-aware
 applications. This is Phase 0 of the roadmap — see `../STARTUP.md` for the
 full product spec, competitive landscape, and phase plan.
 
+**Phase 1 (IRCC compliance Q&A) now also lives in this repo, in [`qa/`](qa/README.md).**
+**The personal compliance & PGWP eligibility checker (the second half of Phase 1) lives in [`checker/`](checker/README.md).**
+**Phase 2 v1 (eligibility-aware ranked job list, fusing all three prior modules) lives in [`matcher/`](matcher/README.md).**
+**Phase 3a (the compliance-fact grounding layer for a future application-drafting step) lives in [`matcher/DRAFTING.md`](matcher/DRAFTING.md).**
+This document below covers Phase 0 (the sponsorship classifier) only.
+
 ## The problem this increment solves
 
 Job postings almost never say clearly whether an employer will consider or
