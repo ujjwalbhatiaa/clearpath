@@ -1,0 +1,27 @@
+{
+  "note": "Hand-written by the builder, 2026-07-17. expected_chunk_id is the chunk id from corpus/chunks.json that honestly best answers the question, based on the actual chunk text -- not reverse-engineered from what the retriever returns. expected_chunk_id: null means the question is deliberately out-of-corpus or ambiguous and the retriever is expected to REFUSE (score below REFUSAL_THRESHOLD), not return any chunk.",
+  "questions": [
+    {"question": "How many hours per week am I allowed to work off campus during a regular semester?", "expected_chunk_id": "hour_cap_24"},
+    {"question": "Can I work more than 24 hours a week if I have two part-time jobs?", "expected_chunk_id": "hour_cap_24"},
+    {"question": "Can I work unlimited hours during my winter break?", "expected_chunk_id": "scheduled_break_unlimited"},
+    {"question": "What happens if I work more than 24 hours a week during term time?", "expected_chunk_id": "scheduled_break_unlimited"},
+    {"question": "Does a single statutory holiday count as a scheduled break for unlimited work?", "expected_chunk_id": "annual_180_day_cap"},
+    {"question": "Is there a yearly limit on how many days I can work unlimited hours?", "expected_chunk_id": "annual_180_day_cap"},
+    {"question": "My school's breaks add up to 200 days in a row -- can I work unlimited hours the whole time?", "expected_chunk_id": "annual_180_day_cap"},
+    {"question": "How long do I have to apply for a PGWP after I finish my program?", "expected_chunk_id": "pgwp_general_eligibility"},
+    {"question": "How long does my program need to be to qualify for a post-graduation work permit?", "expected_chunk_id": "pgwp_general_eligibility"},
+    {"question": "I have a bachelor's degree -- do I need to worry about the eligible field of study list for my PGWP?", "expected_chunk_id": "pgwp_field_of_study_exempt"},
+    {"question": "What CLB level do I need for a PGWP if I graduated from a college program?", "expected_chunk_id": "pgwp_field_of_study_exempt"},
+    {"question": "Is the list of PGWP-eligible fields of study changing in 2026?", "expected_chunk_id": "pgwp_field_of_study_freeze_2026"},
+    {"question": "How is PGWP field-of-study eligibility actually determined -- what coding system is used?", "expected_chunk_id": "pgwp_field_of_study_freeze_2026"},
+    {"question": "Do I still need a separate co-op work permit for my internship this year?", "expected_chunk_id": "co_op_exemption_2026"},
+    {"question": "Is there a weekly hour limit on my co-op placement?", "expected_chunk_id": "co_op_exemption_2026"},
+    {"question": "Can my work placement be more than half of my study program length?", "expected_chunk_id": "co_op_exemption_2026"},
+    {"question": "If I work remotely for a company based outside Canada, does that count toward my 24-hour cap?", "expected_chunk_id": "remote_work_foreign_employer"},
+    {"question": "Does freelancing for a US client online count against my off-campus work hour limit?", "expected_chunk_id": "remote_work_foreign_employer"},
+    {"question": "What is the capital city of Canada?", "expected_chunk_id": null},
+    {"question": "How do I file my Canadian income taxes as a student?", "expected_chunk_id": null},
+    {"question": "What's the best pizza place near the University of Alberta?", "expected_chunk_id": null},
+    {"question": "I'm a master's grad from an 6-month program under the PGWP 8-month minimum -- am I eligible at all?", "expected_chunk_id": null, "note": "Deliberately out-of-corpus: this needs combining the 8-month minimum with a rule not in this corpus (whether any exception applies to sub-8-month programs). Included to test that the retriever doesn't overconfidently match on 'PGWP' keyword overlap alone."}
+  ]
+}
