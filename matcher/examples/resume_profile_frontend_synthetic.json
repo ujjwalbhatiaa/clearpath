@@ -1,0 +1,20 @@
+{
+  "name": "Synthetic contrasting profile -- frontend/web-development-focused candidate, built for this increment's 'different resume changes the ranking' acceptance test (NEXT-BUILD-SPEC.md Scope-in section 1). Not a real person; used only to prove the semantic-similarity layer is doing real work, not returning a fixed order regardless of input.",
+  "raw_text": "JORDAN LEE\nFrontend Web Developer Student  |  Aspiring UI/UX Engineer\nCalgary, AB  •  jordan.lee.example@example.com\nSUMMARY\nComputing Science student focused on frontend web development and user-interface design, seeking web developer or UI engineering internships. Strong in JavaScript, React, responsive CSS layout, and accessibility-focused design; has shipped several client-facing web apps for small-business clients.\nTECHNICAL SKILLS\nProgramming Languages: JavaScript, TypeScript, HTML, CSS\nFrameworks & Tools: React, Next.js, Tailwind CSS, Figma, Node.js\nConcepts: Responsive Web Design, Accessibility (WCAG), UI/UX Design, REST APIs\nEXPERIENCE\nFrontend Developer Intern -- Local Web Agency\nBuilt responsive, accessible marketing websites and client dashboards in React and Tailwind CSS for small-business clients; ran manual and automated accessibility audits against WCAG 2.1 AA.\nPROJECTS\nPortfolio Site Builder -- a drag-and-drop React tool for building personal portfolio websites, with live CSS theming and built-in accessibility checks.\nCampus Events UI -- a Next.js/React front end for browsing campus events, focused on mobile-responsive layout and pixel-accurate Figma-to-code implementation.\nComponent Library -- a small reusable React/Tailwind component library (buttons, forms, modals) published with Storybook documentation and visual regression tests.",
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "Figma",
+    "Node.js",
+    "UI/UX Design",
+    "Responsive Web Design",
+    "Accessibility (WCAG)",
+    "REST APIs"
+  ],
+  "experience_level": "Undergraduate student, frontend web development focus, seeking web developer / UI engineering internships; some web agency intern experience, no backend/ML background."
+}
