@@ -1,0 +1,8 @@
+# Phase 1 (qa/) dependencies -- all free, open-source packages, no API key
+# or paid service involved. sentence-transformers pulls in torch (CPU) and
+# huggingface_hub as transitive dependencies; the first run downloads the
+# ~90MB all-MiniLM-L6-v2 model weights from Hugging Face (free, no signup,
+# no rate limit for public models) and caches them locally.
+
+sentence-transformers>=3.0
+numpy>=1.24
