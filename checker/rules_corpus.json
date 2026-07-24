@@ -1,0 +1,30 @@
+{
+  "corpus_note": "Extends ../qa/corpus/chunks.json for the Phase 1 personal compliance & PGWP eligibility checker (checker/eligibility.py). These 3 chunks were captured live on 2026-07-18 -- two from deeper reading of pages already partially cited in the Q&A corpus (work-off-campus.html, after-graduation/eligibility.html), one from a page fetched for the first time (work-on-campus.html). This file is intentionally NOT a fork of the Q&A corpus: chunks already covering general PGWP eligibility (pgwp_general_eligibility) and the bachelor's field-of-study exemption (pgwp_field_of_study_exempt) already exist in ../qa/corpus/chunks.json and are reused as-is by id -- see checker/corpus_loader.py, which loads and merges both files into one id-keyed lookup at import time. If you are adding a new chunk, first check it doesn't already exist in ../qa/corpus/chunks.json before adding it here.",
+  "capture_date": "2026-07-18",
+  "chunks": [
+    {
+      "id": "on_campus_unlimited",
+      "tags": ["on-campus work", "unlimited hours", "no hour limit"],
+      "source_title": "Work on campus as an international student",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-on-campus.html",
+      "date_modified": "2026-05-01",
+      "text": "There is no limit to on-campus work hours during regular school terms or semesters [or] scheduled breaks in the school year. You can work as many hours as you want as long as you're eligible."
+    },
+    {
+      "id": "legacy_permit_text_20_hours",
+      "tags": ["24-hour cap", "legacy permit text", "20 hours", "off-campus work"],
+      "source_title": "Work off campus as an international student",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+      "date_modified": "2026-04-15",
+      "text": "If your current study permit says that you may only work 20 hours per week off campus... you're allowed to work up to 24 hours per week as long as you continue to meet the eligibility requirements."
+    },
+    {
+      "id": "pgwp_not_eligible_exclusions",
+      "tags": ["PGWP", "exclusions", "not eligible", "eligibility"],
+      "source_title": "Post-graduation work permit: Who can apply",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html",
+      "date_modified": "2026-06-24",
+      "text": "You're not eligible for a PGWP if you: already received a PGWP; studied English or French as a second language; took general interest or self-improvement courses; completed a non-credit program of study (except a flight school program); received funding from Global Affairs Canada that required you to return to your home country after graduation; completed more than 50% of your study program through distance learning; completed a study program at a non-Canadian institution located in Canada; or completed a course/program at a designated learning institution that isn't PGWP-eligible, including curriculum-licensing (P3) programs outside the grandfathered dates."
+    }
+  ]
+}
